@@ -10,7 +10,7 @@ const success = () => {
     localStorage.clear();
     setCartItems([]);
     settotalQuantities(0);
-    settotalQuantities(0);
+    setTotalPrice(0);
     runFireworks();
   }, []);
 
